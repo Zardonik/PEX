@@ -3,12 +3,18 @@ body{
   font-family:'Nanum Gothic', sans-serif;
 }
 header{
-	background-image:url(../img/1.jpg);
-	background-size:100%;
+	background-image:url(../img/header.jpg);
+	background-size:cover;
 }
 nav{
   	display:flex;
   	justify-content:space-around;
+}
+hr{
+	background-color:rgb(255,255,255,0.3);
+	border:none;
+	height:1px;
+	width:100%;
 }
 .logo{
   display:flex;
@@ -25,7 +31,6 @@ header img{
 }
 .menu{
 	display:flex;
-  	justify-content:space-around;
 }
 ul {
 	display:flex;
@@ -35,11 +40,11 @@ ul {
 ul li a{
 	text-decoration:none;
 	color:white;
-	padding-right:50px;
+	margin-left:20px;
 }
 .search {
-  width: 15%;
   position: relative;
+	margin-left: 20px;
 }
 .search input {
   border: none;
@@ -105,21 +110,19 @@ input[type="search"] {
   font-size:12px;
 }
 .slide{
-	background-image:url(../img/2.png);
-	background-size:100%;
+	background-image:url(../img/2.jpg);
+	background-size: cover;
 	background-repeat:no-repeat;
-	padding-bottom:19px;
 }
 /*block1*/
 .block1{
 	display:flex;
 	justify-content:center;
-	width:100%;
 }
 .fanHeading{
-	width:20%;
+	width: 400px;
 	padding-top:100px;
-	margin-right:50px;
+	margin-right:25px;
 }
 .fanHeading h2{
 	color:white;
@@ -131,9 +134,9 @@ input[type="search"] {
 	color:white;
 }
 .goodDay{
-	width:20%;
+	width: 400px;
 	padding-top:100px;
-	margin-left:50px;
+	margin-left:25px;
 }
 .goodDay h2{
 	color:white;
@@ -144,17 +147,15 @@ input[type="search"] {
 .goodDay p{
 	color:white;
 }
-/*block2*/
 .block2{
 	display:flex;
 	justify-content:center;
-	width:100%;
 }
 
 .blaz{
-	width:20%;
-	padding-top:100px;
-	margin-right:50px;
+	width: 400px;
+	margin-right:25px;
+	padding-bottom: 50px;
 }
 .blaz h2{
 	color:white;
@@ -167,9 +168,9 @@ input[type="search"] {
 }
 
 .vote{
-	width:20%;
-	padding-top:100px;
-	margin-left:50px;
+	width:400px;
+	margin-left:25px;
+	padding-bottom: 50px;
 }
 .vote h2{
 	color:white;
@@ -183,7 +184,7 @@ input[type="search"] {
 /*creating block pink*/
 .pink{
 	background-image:url(../img/pink.jpg);
-	background-size:100%;
+	background-size:cover;
 	background-repeat:no-repeat;
 }
 .bang{
@@ -229,9 +230,7 @@ input[type="search"] {
 	height:100%;
 }
 .text{
-	display:flex;
-	justify-content:center;
-	align-items:center;
+	margin-left: 80px;
 }
 .paragraph{ 
 	width:50%;
@@ -247,7 +246,7 @@ input[type="search"] {
 /*Stretch*/
 .stretch{
 	background-image:url(../img/3.jpg);
-	background-size:100%;
+	background-size:cover;
 	background-repeat:no-repeat;
 }
 .rush{
@@ -283,7 +282,7 @@ input[type="search"] {
 /*creating future*/
 .future{
 	background-image: url(../img/5.jpg);
-	background-size:100%;
+	background-size:cover;
 	background-repeat:no-repeat;
 }
 .future button{
@@ -295,40 +294,42 @@ input[type="search"] {
 	padding: 15px;
 	width: 200px;
 	color:white;
-  	margin-top: 20px;
+  margin-top: 20px;
 }
 .future h1{
 	color:white;
 	margin-bottom:0;
 }
 .article{
-	padding-left:150px;
-	padding-top:600px;
+	display:flex;
+	flex-direction:column;
+	padding-left:100px;
+	padding-top:200px;
 	padding-bottom:100px;
 }
 .avatar{
 	display:flex;
 }
 .avatar img{
-	width:3%;
-	height:3%;
+	width:2%;
+	height:65%;
 	border-radius:50%;
 	padding-top:15px;
 }
 .avatar p{
-	padding-top:15px;
+	padding-top:10px;
 	padding-left:10px;
 	font-size:12px;
 	color:white;
 }
 .par{
-	padding-top:150px;
+	padding-top:100px;
 	padding-left:150px;
 	padding-bottom:100px;
 }
 .contact{
 	background-color:#e01f3f;
-	background-size: 100%;
+	background-size:cover;
 }
 .contact h4{
 	color:white;
